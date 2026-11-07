@@ -1,0 +1,220 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "hola quiero informacion",
+        "que tal",
+        "saludos",
+        "hola hero",
+        "necesito ayuda",
+        "me puedes ayudar"
+      ],
+      "responses": [
+        "¡Hola! Soy HERO Smart Advisor. Puedo ayudarte a elegir una motocicleta, comparar opciones y orientarte sobre compra o crédito."
+      ]
+    },
+    {
+      "tag": "buscar_moto",
+      "patterns": [
+        "estoy buscando una moto",
+        "quiero comprar una motocicleta",
+        "necesito una moto",
+        "quiero ver opciones de motos",
+        "que moto me recomiendas",
+        "quiero comprar una hero",
+        "busco una motocicleta",
+        "ayudame a escoger una moto",
+        "quiero saber cual moto comprar",
+        "recomiendame una moto"
+      ],
+      "responses": [
+        "Claro. Para recomendarte mejor una moto dime si la usarás principalmente para ciudad, trabajo o aventura."
+      ]
+    },
+    {
+      "tag": "moto_economica",
+      "patterns": [
+        "quiero una moto economica",
+        "busco una moto que gaste poca gasolina",
+        "quiero ahorrar combustible",
+        "necesito una moto barata",
+        "quiero una moto de bajo consumo",
+        "cual es la moto mas economica",
+        "quiero algo sencillo y ahorrador",
+        "busco economia",
+        "quiero gastar poco combustible",
+        "moto economica para uso diario"
+      ],
+      "responses": [
+        "Si tu prioridad es economía y uso diario urbano, una opción adecuada es la HERO ECO Deluxe."
+      ]
+    },
+    {
+      "tag": "moto_trabajo",
+      "patterns": [
+        "necesito una moto para trabajar",
+        "la quiero para delivery",
+        "busco una moto para reparto",
+        "quiero una moto para mensajeria",
+        "necesito una moto de trabajo",
+        "moto para trabajar todos los dias",
+        "quiero usarla para negocio",
+        "moto para repartidor",
+        "moto para uso comercial",
+        "quiero una moto resistente para trabajo"
+      ],
+      "responses": [
+        "Para trabajo diario conviene priorizar economía, confiabilidad y facilidad de manejo. Puedo ayudarte a escoger entre ECO Deluxe y HUNK 125."
+      ]
+    },
+    {
+      "tag": "moto_ciudad",
+      "patterns": [
+        "la usare en ciudad",
+        "quiero una moto para ciudad",
+        "solo la usare en guayaquil",
+        "moto para moverme en la ciudad",
+        "quiero movilidad urbana",
+        "la usare para ir al trabajo",
+        "moto para trafico urbano",
+        "uso urbano diario",
+        "moto para distancias cortas",
+        "la quiero para ciudad y oficina"
+      ],
+      "responses": [
+        "Para ciudad suelen funcionar muy bien opciones ágiles y económicas como ECO Deluxe, HUNK 125 o XOOM 125."
+      ]
+    },
+    {
+      "tag": "moto_aventura",
+      "patterns": [
+        "quiero una moto para aventura",
+        "quiero viajar en carretera",
+        "busco una moto para caminos malos",
+        "quiero una moto para montaña",
+        "moto para carretera y tierra",
+        "quiero hacer viajes largos",
+        "necesito una moto para terreno mixto",
+        "quiero una moto tipo doble proposito",
+        "moto para rutas difíciles",
+        "quiero una moto para paseos y aventura"
+      ],
+      "responses": [
+        "Para carretera y terreno mixto, la HERO XPULSE 200 4V FI es la alternativa más adecuada dentro de este asistente."
+      ]
+    },
+    {
+      "tag": "consultar_precio",
+      "patterns": [
+        "cuanto cuesta",
+        "que precio tiene",
+        "cual es el precio",
+        "quiero saber el valor",
+        "precio de la moto",
+        "cuanto vale",
+        "dame el precio",
+        "que cuesta la hero",
+        "precio contado",
+        "quiero conocer los precios"
+      ],
+      "responses": [
+        "Los precios pueden variar según modelo, versión y campaña. En una implementación comercial real esta consulta se conectaría al sistema de precios vigente."
+      ]
+    },
+    {
+      "tag": "consultar_credito",
+      "patterns": [
+        "puedo comprar a credito",
+        "tienen financiamiento",
+        "quiero pagar a cuotas",
+        "como funciona el credito",
+        "quiero financiar la moto",
+        "se puede comprar financiado",
+        "que necesito para credito",
+        "quiero saber las cuotas",
+        "ofrecen credito",
+        "puedo pagar mensualmente"
+      ],
+      "responses": [
+        "Sí, se puede evaluar una compra financiada. El sistema puede orientarte y derivarte a una evaluación formal de crédito."
+      ]
+    },
+    {
+      "tag": "consultar_modelos",
+      "patterns": [
+        "que modelos tienen",
+        "que motos hero existen",
+        "muestrame los modelos",
+        "cuales son las motos disponibles",
+        "lista de motos",
+        "que modelos hero recomiendas",
+        "quiero conocer las motos hero",
+        "modelos de hero",
+        "que motocicletas manejan",
+        "dime los modelos"
+      ],
+      "responses": [
+        "En esta demo trabajo con ECO Deluxe, HUNK 125, HUNK 160 4V, XOOM 125 y XPULSE 200 4V FI."
+      ]
+    },
+    {
+      "tag": "comparar_modelos",
+      "patterns": [
+        "quiero comparar motos",
+        "cual es mejor entre dos modelos",
+        "compara la eco y la hunk",
+        "diferencia entre modelos",
+        "que diferencia hay entre la hunk y la xpulse",
+        "comparacion de motos",
+        "ayudame a comparar opciones",
+        "cual me conviene mas",
+        "que modelo es mejor",
+        "quiero comparar dos hero"
+      ],
+      "responses": [
+        "Puedo compararlas según uso, economía y tipo de terreno. Indícame qué dos modelos quieres contrastar."
+      ]
+    },
+    {
+      "tag": "contacto_asesor",
+      "patterns": [
+        "quiero hablar con un asesor",
+        "necesito un vendedor",
+        "contactame con ventas",
+        "quiero que me llame un asesor",
+        "quiero hablar con una persona",
+        "pasame con un vendedor",
+        "necesito atencion humana",
+        "quiero contacto comercial",
+        "quiero hablar con alguien de hero",
+        "quiero un asesor comercial"
+      ],
+      "responses": [
+        "Perfecto. En un entorno real enviaría tus datos a un asesor comercial para continuar la atención."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "eso es todo",
+        "hasta luego",
+        "adios",
+        "nos vemos",
+        "gracias por la ayuda",
+        "listo gracias",
+        "perfecto gracias",
+        "ya no necesito nada"
+      ],
+      "responses": [
+        "¡Gracias por conversar con HERO Smart Advisor! Espero haberte ayudado a orientar tu decisión."
+      ]
+    }
+  ]
+}
