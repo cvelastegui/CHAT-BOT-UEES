@@ -5,7 +5,7 @@ import tensorflow as tf
 
 BASE = Path(__file__).resolve().parent.parent
 MODEL_DIR = BASE / "models"
-MAX_LEN = 20
+MAX_LEN = 18
 
 _model = None
 _tokenizer = None
@@ -40,6 +40,4 @@ def predict_intent(text: str):
     )
     probs = model.predict(padded, verbose=0)[0]
     idx = int(np.argmax(probs))
-    intent = encoder.inverse_transform([idx])[0]
-    confidence = float(probs[idx])
-    return intent, confidence
+    return encoder.inverse_transform([idx])[0], float(probs[idx])

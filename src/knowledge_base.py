@@ -9,13 +9,13 @@ MODELS = {
         "uso": ["ciudad", "trabajo"],
         "prioridad": ["equilibrio"],
         "terreno": ["urbano"],
-        "descripcion": "Opción urbana con mayor presencia y equilibrio entre movilidad y desempeño."
+        "descripcion": "Opción urbana equilibrada para movilidad diaria y trabajo."
     },
     "HUNK 160 4V": {
         "uso": ["ciudad", "recreacion"],
         "prioridad": ["potencia"],
         "terreno": ["urbano", "carretera"],
-        "descripcion": "Alternativa para quien prioriza mayor desempeño y una conducción más deportiva."
+        "descripcion": "Alternativa para quien prioriza mayor desempeño y conducción deportiva."
     },
     "XOOM 125": {
         "uso": ["ciudad"],
